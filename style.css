@@ -1,5 +1,9 @@
+* {
+  color: red;
+}
+
 nav {
-  font-family: sans-serif;
+  font-family: "Titan One", cursive;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -30,12 +34,14 @@ nav {
   border: solid white 1px;
   background-color: #f2faff;
 }
+
 /* --------------------Header-------------------- */
 #first-view {
   height: 75vh;
-  width: 100vw;
+  width: 97vw;
   background-color: #1c202b;
   background-image: url(./src/Polygon\ Luminary.svg);
+  background-repeat: round;
   color: white;
   display: flex;
   justify-content: center;
@@ -50,4 +56,20 @@ h2 {
   /* border: solid 1px red; */
   height: min-content;
   width: max-content;
+  font-family: "Titan One", cursive;
+  margin-top: 20px;
+}
+#presentacion {
+  height: 75vh;
+  width: 97vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #1c202b;
+  background-image: url(./src/Circuit\ Board.svg);
+}
+.col {
+  background-color: #1c202b5f;
 }
