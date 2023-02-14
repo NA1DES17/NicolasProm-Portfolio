@@ -1,7 +1,9 @@
 * {
   color: red;
 }
-
+body {
+  background-color: #e4f0ff;
+}
 nav {
   font-family: "Titan One", cursive;
   font-weight: 700;
@@ -61,15 +63,34 @@ h2 {
 }
 #presentacion {
   height: 75vh;
+  height: 686px;
   width: 97vw;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color: #1c202b;
-  background-image: url(./src/Circuit\ Board.svg);
+  box-shadow: 5px 8px 20px #181b26;
 }
 .col {
-  background-color: #1c202b5f;
+  background-color: #e4f0ff2b;
+}
+.col-2 {
+  background-color: #e4f0ff;
+  background-image: url(./src/Rect\ Light.svg);
+  height: 50%;
+  /* border: 0.5px solid; */
+}
+.col h4 {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-family: "Titan One", cursive;
+}
+.col h3 {
+  margin-bottom: 95px;
+  text-transform: uppercase;
+  font-family: "Titan One", cursive;
+}
+.col p {
+  margin-bottom: 22px;
 }
