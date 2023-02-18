@@ -166,6 +166,12 @@ footer a {
   color: var(--letras-blancas);
   margin: 15px;
 }
+.to-up {
+  position: fixed;
+  bottom: 55px;
+  right: 10px;
+  color: var(--color-primario);
+}
 @media screen and (max-width: 768px) {
   #other-pages .img-borrar {
     display: none;
@@ -188,5 +194,11 @@ footer a {
     text-decoration: none;
     display: flex;
     justify-content: center;
+  }
+  .to-up {
+    position: fixed;
+    bottom: 50px;
+    right: 3px;
+    color: var(--color-primario);
   }
 }
