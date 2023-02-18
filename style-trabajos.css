@@ -39,3 +39,77 @@ nav {
   background-color: #f2faff;
 }
 /* --Nav styles-- */
+#trabajos {
+  width: 97vw;
+  background-color: #f9f9f9;
+  margin-top: 7px;
+  border-radius: 15px;
+}
+#pb {
+  background-image: url(./src/PrettyBackery.png);
+  background-size: cover;
+}
+#cc {
+  background-image: url(./src/3columns.png);
+  background-size: cover;
+}
+#nft {
+  background-image: url(./src/NFTcard.png);
+  background-size: cover;
+}
+#pc {
+  background-image: url(./src/ProdCard.png);
+  background-size: cover;
+}
+#qr {
+  background-image: url(./src/QRcard.png);
+  background-size: cover;
+}
+#trabajos .col-md-6 {
+  border-radius: 15px;
+  height: 27vh;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 4px 0px;
+  text-transform: uppercase;
+  color: var(--letras-blancas);
+  text-shadow: 2px 1px var(--color-primario);
+}
+.col-md-6 .mostrar {
+  display: none;
+}
+.col-md-6:hover {
+  transform: scale(1.005);
+  opacity: 0.5;
+}
+.col-md-6:hover h2 {
+  display: none;
+}
+.mostrar {
+  margin: 10px;
+  color: var(--letras-blancas);
+  text-shadow: 2px 1px var(--color-primario);
+}
+.col-md-6:hover .mostrar {
+  display: block;
+}
+footer {
+  background-color: var(--color-primario);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  color: var(--letras-blancas);
+  margin: 15px;
+}
+.to-up {
+  position: fixed;
+  bottom: 55px;
+  right: 10px;
+  color: var(--color-primario);
+}
