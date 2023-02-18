@@ -1,15 +1,13 @@
 :root {
   --color-primario: #181b26;
-}
-* {
-  color: red;
+  --letras-blancas: #e4f0ff;
 }
 body {
   background-color: #e4f0ff;
   background-color: white;
 }
 nav {
-  font-family: "Titan One", cursive;
+  font-family: "Patua One", cursive;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -48,7 +46,7 @@ nav {
   background-color: #1c202b;
   background-image: url(./src/Polygon\ Luminary.svg);
   background-repeat: round;
-  color: white;
+  color: var(--letras-blancas);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,16 +62,16 @@ h2 {
   height: min-content;
   width: max-content;
   font-family: "Titan One", cursive;
+  font-family: "Patua One", cursive;
   margin-top: 20px;
 }
 #presentacion {
   width: 97vw;
-  color: white;
+  color: var(--letras-blancas);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  box-shadow: 5px 8px 20px var(--color-primario);
   border-radius: 10px;
   padding-top: 60px;
   padding-bottom: 50px;
@@ -119,22 +117,76 @@ button {
   width: 97vw;
   height: 1000px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-#other-pages img {
-  width: 420px;
-  height: 280px;
+#other-pages .img-fluid {
+  padding: 0px;
+  height: 265px;
+  width: 400px;
 }
-#other-pages .col {
+.texto {
+  background-color: rgba(31, 35, 47, 1);
+  width: 400px;
   padding: 0;
   margin: 0;
-}
-.text {
-  background-color: #1f232f;
+  /* border: solid 0.2px; */
+  color: var(--letras-blancas);
   display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#other-pages .row {
+  /* border: solid purple; */
+  height: 265px;
+  margin: 2px;
+  width: 805px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#other-pages .row:hover {
+  transform: skewY(2deg) /* scale(1.03, 1.03) */;
+}
+.texto h2 {
+  font-size: 18px;
+}
+footer {
+  background-color: var(--color-primario);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.row {
-  border: solid 1px;
-  width: 800px;
+footer a {
+  color: var(--letras-blancas);
+  margin: 15px;
+}
+@media screen and (max-width: 768px) {
+  #other-pages .img-borrar {
+    display: none;
+  }
+  .img-1 {
+    background-image: url(https://justusbremer.com/images/index/project_thumb.jpg);
+  }
+  .img-2 {
+    background-image: url(https://justusbremer.com/images/index/about_thumb.jpg);
+  }
+  .img-3 {
+    background-image: url(https://justusbremer.com/images/index/contact_thumb.jpg);
+  }
+  #other-pages .row {
+    /* border: solid purple; */
+    height: 265px;
+    margin: 2px;
+    width: 80vw;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+  }
 }
