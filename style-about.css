@@ -1,0 +1,77 @@
+:root {
+  --color-primario: #181b26;
+  --letras-blancas: #e4f0ff;
+}
+body {
+  background-color: #e4f0ff;
+  background-color: white;
+}
+nav {
+  font-family: "Patua One", cursive;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  position: fixed;
+  min-height: 85px;
+  width: 100%;
+  z-index: 500;
+  animation-name: opacity;
+  animation-fill-mode: forwards;
+}
+.navbar {
+  background-color: var(--color-primario);
+  box-shadow: 5px 8px 20px var(--color-primario);
+}
+.navbar img {
+  width: 70px;
+}
+.c2 {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+.navbar-toggler {
+  border: solid white 1px;
+  background-color: #f2faff;
+}
+
+/* --------------------Header-------------------- */
+#presentacion {
+  width: 97vw;
+  height: max-content;
+  /* border: solid 0.5px black; */
+  border-radius: 15px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 17px;
+}
+#mobile {
+  display: none;
+}
+.col-md-5,
+.col-md-7 {
+  /* border: solid 1px red; */
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 10px 10px 20px #181b26;
+}
+.col-md-5 {
+  padding: 0;
+}
+.col-md-6 img {
+  border-radius: 15px;
+}
+@media screen and (max-width: 767px) {
+  #mobile {
+    display: block;
+  }
+  #desk {
+    display: none;
+  }
+}
