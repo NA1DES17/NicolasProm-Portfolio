@@ -67,11 +67,29 @@ nav {
 .col-md-6 img {
   border-radius: 15px;
 }
-@media screen and (max-width: 767px) {
+footer {
+  background-color: var(--color-primario);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+footer a {
+  color: var(--letras-blancas);
+  margin: 15px;
+}
+@media screen and (max-width: 768px) {
   #mobile {
     display: block;
   }
   #desk {
     display: none;
+  }
+  footer {
+    position: relative;
+    bottom: 0;
   }
 }
