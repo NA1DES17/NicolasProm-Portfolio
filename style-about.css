@@ -3,8 +3,12 @@
   --letras-blancas: #e4f0ff;
 }
 body {
-  background-color: #e4f0ff;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 nav {
   font-family: "Patua One", cursive;
@@ -66,6 +70,42 @@ nav {
 }
 .col-md-6 img {
   border-radius: 15px;
+}
+/* button {
+  border: solid 1px #f9f871;
+  width: 375px;
+  text-transform: uppercase;
+  background-color: #d4a418;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 25px;
+  color: var(--letras-blancas);
+}
+.download-button a {
+  color: var(--letras-blancas);
+  text-decoration: none;
+}
+button:hover {
+  background-color: var(--letras-blancas);
+  color: #d4a418;
+  border: #d4a418;
+} */
+.button {
+  margin-top: 13px;
+  color: #ecf0f1;
+  font-size: 17px;
+  background-color: #e67e22;
+  border: 1px solid #f39c12;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 6px 0px #d35400;
+  transition: all 0.1s;
+}
+
+.button:active {
+  box-shadow: 0px 2px 0px #d35400;
+  position: relative;
+  top: 2px;
 }
 footer {
   background-color: var(--color-primario);
