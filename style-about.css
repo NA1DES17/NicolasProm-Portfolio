@@ -71,25 +71,7 @@ nav {
 .col-md-6 img {
   border-radius: 15px;
 }
-/* button {
-  border: solid 1px #f9f871;
-  width: 375px;
-  text-transform: uppercase;
-  background-color: #d4a418;
-  text-align: center;
-  border-radius: 10px;
-  margin-top: 25px;
-  color: var(--letras-blancas);
-}
-.download-button a {
-  color: var(--letras-blancas);
-  text-decoration: none;
-}
-button:hover {
-  background-color: var(--letras-blancas);
-  color: #d4a418;
-  border: #d4a418;
-} */
+
 .button {
   margin-top: 13px;
   color: #ecf0f1;
@@ -107,6 +89,9 @@ button:hover {
   position: relative;
   top: 2px;
 }
+.clearfix {
+  color: white;
+}
 footer {
   background-color: var(--color-primario);
   height: 48px;
@@ -114,8 +99,6 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 0;
 }
 footer a {
   color: var(--letras-blancas);
