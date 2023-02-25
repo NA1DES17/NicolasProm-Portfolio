@@ -15,7 +15,7 @@ nav {
   letter-spacing: 0.08em;
   position: fixed;
   min-height: 85px;
-  width: 100%;
+  width: 98%;
   z-index: 500;
   animation-name: opacity;
   animation-fill-mode: forwards;
@@ -42,7 +42,6 @@ nav {
 /* --------------------Header-------------------- */
 #first-view {
   height: 75vh;
-  width: 97vw;
   background-color: #1c202b;
   background-image: url(./src/Polygon\ Luminary.svg);
   background-repeat: round;
@@ -68,7 +67,7 @@ h2 {
   text-transform: uppercase;
   display: inline;
 }
-hr {
+#first-view hr {
   color: var(--letras-blancas);
   width: 75%;
   border-top: solid 3px var(--letras-blancas);
@@ -84,12 +83,20 @@ button {
   text-transform: uppercase;
 }
 #contact-view {
-  width: 97vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border-radius: 10px;
-  background-color: red;
-  height: 500px;
+  background-color: violet;
+}
+.contact-card {
+  /* border: solid 0.5px beige; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-card p {
+  margin: 0px;
 }
