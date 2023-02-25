@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
@@ -16,13 +34,14 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact-style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nicolas Prom</title>
   </head>
   <body>
+    <div id="up"></div>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="./home.html"
@@ -65,17 +84,55 @@
               class="nav-link active"
               style="color: #f2faff"
               href="mailto:nicolasprom@gmail.com"
+              target="_blank"
               ><i class="bi bi-envelope-fill"></i
             ></a>
             <a
               class="nav-link active"
               style="color: #f2faff"
               href="https://github.com/NA1DES17"
+              target="_blank"
               ><i class="bi bi-github"></i
+            ></a>
+            <a
+              class="nav-link active"
+              style="color: #f2faff"
+              href="https://www.linkedin.com/in/nicolaspromdev/"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i
             ></a>
           </div>
         </div>
       </div>
     </nav>
+    <div class="container-fluid">
+      <div class="container-fluid" id="first-view">
+        <div class="container" id="textos">
+          <h2>Una oportunidad para</h2>
+          <h2 id="otto-color">conectarnos.</h2>
+          <hr />
+          <hr />
+          <p>
+            Para cualquier consulta o solicitud, no dude en ponerse en contacto
+            conmigo a través de los enlaces a continuación
+          </p>
+          <a href="#contact-view"><button>Contactame</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="contact-view">
+      <h2>Detalles de contacto</h2>
+      <p>
+        ¿Tienes alguna duda o te gustaría recibir más información sobre mi
+        trabajo? No dude en ponerse en contacto conmigo a través de los
+        siguientes enlaces a continuación o conectarse conmigo directamente en
+        las redes sociales. Me aseguraré de responderte lo antes posible.
+      </p>
+      <div class="row">
+        <div class="col-md-4">Email</div>
+        <div class="col-md-4">Telegram</div>
+        <div class="col-md-4">Linkedin</div>
+      </div>
+    </div>
   </body>
 </html>
