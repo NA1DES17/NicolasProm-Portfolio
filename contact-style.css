@@ -15,7 +15,7 @@ nav {
   letter-spacing: 0.08em;
   position: fixed;
   min-height: 85px;
-  width: 98%;
+  width: 100%;
   z-index: 500;
   animation-name: opacity;
   animation-fill-mode: forwards;
@@ -88,7 +88,7 @@ button {
   align-items: center;
   flex-direction: column;
   border-radius: 10px;
-  background-color: violet;
+  /* background-color: violet; */
 }
 .contact-card {
   /* border: solid 0.5px beige; */
@@ -96,7 +96,37 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 290px;
+  margin: 15px 15px;
+  box-shadow: 1px 1px 20px beige;
 }
 .contact-card p {
   margin: 0px;
+}
+.row {
+  justify-content: center;
+}
+.contact-card .bi {
+  font-size: 30px;
+}
+.contact-card a {
+  color: var(--color-primario);
+  text-decoration: none;
+  border: solid 0.5px var(--color-primario);
+  padding: 7px 30px;
+}
+.clearfix {
+  color: white;
+}
+footer {
+  background-color: var(--color-primario);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  color: var(--letras-blancas);
+  margin: 15px;
 }

@@ -65,6 +65,10 @@ nav {
   background-image: url(./src/QRcard.png);
   background-size: cover;
 }
+#interactive {
+  background-image: url(./src/interactiveComponent.png);
+  background-size: cover;
+}
 #trabajos .col-md-6 {
   border-radius: 15px;
   height: 27vh;
